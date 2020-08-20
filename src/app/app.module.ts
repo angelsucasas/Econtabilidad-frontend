@@ -8,6 +8,7 @@ import { FooterComponent } from './service/footer/footer.component';
 import { TestManagerComponent } from './service/test-manager/test-manager.component';
 import { TestListComponent } from './service/test-manager/test-list/test-list.component';
 import { TestComponent } from './service/test/test.component';
+import { FrontPageComponent } from './front-page/front-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TestComponent } from './service/test/test.component';
     FooterComponent,
     TestManagerComponent,
     TestListComponent,
-    TestComponent
+    TestComponent,
+    FrontPageComponent
   ],
   imports: [
     BrowserModule,
