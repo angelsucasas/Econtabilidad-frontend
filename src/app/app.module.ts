@@ -9,18 +9,15 @@ import { TestManagerComponent } from './service/test-manager/test-manager.compon
 import { TestListComponent } from './service/test-manager/test-list/test-list.component';
 import { TestComponent } from './service/test/test.component';
 import { FrontPageComponent } from './front-page/front-page.component';
-import { NavbarComponent } from './front-end/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    TestManagerComponent,
-    TestListComponent,
+    TestManagerComponent,    
     TestComponent,
-    FrontPageComponent,
-    NavbarComponent
+    FrontPageComponent    
   ],
   imports: [
     BrowserModule,
