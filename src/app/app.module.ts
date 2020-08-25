@@ -10,14 +10,16 @@ import { TestListComponent } from './service/test-manager/test-list/test-list.co
 import { TestComponent } from './service/test/test.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    TestManagerComponent,    
+    TestManagerComponent,
+    TestListComponent,
     TestComponent,
-    FrontPageComponent    
+    FrontPageComponent   
   ],
   imports: [
     BrowserModule,
