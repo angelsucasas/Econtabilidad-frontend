@@ -1,6 +1,6 @@
 ## Econtabilidad-frontend 
 
-"pagina para gestionar los condominios de 1 edificio"
+Practica del motor de animaciones gsap en angular
 
 ### Deploy
 
